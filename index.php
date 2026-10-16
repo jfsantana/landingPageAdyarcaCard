@@ -94,18 +94,18 @@
     <main class="relative z-10 w-full max-w-[480px] mx-auto px-5 py-10 flex flex-col min-h-screen">
         
         <!-- Header: Logo -->
-        <header class="flex justify-center mb-8">
-            <div class="flex items-center gap-2">
+        <header class="w-full mb-8">
+            <div class="flex w-full items-center justify-between gap-3">
                 <!-- SVG Logo Adyar -->
-                <svg width="40" height="40" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg class="h-auto w-[clamp(4.5rem,20vw,7rem)] shrink-0" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <path d="M54.5 133C69.6878 133 82 120.688 82 105.5C82 90.3122 69.6878 78 54.5 78C39.3122 78 27 90.3122 27 105.5C27 120.688 39.3122 133 54.5 133Z" fill="#D9231D"/>
                     <path d="M145.5 133C160.688 133 173 120.688 173 105.5C173 90.3122 160.688 78 145.5 78C130.312 78 118 90.3122 118 105.5C118 120.688 130.312 133 145.5 133Z" fill="#D9231D"/>
                     <path d="M100 82C115.188 82 127.5 69.6878 127.5 54.5C127.5 39.3122 115.188 27 100 27C84.8122 27 72.5 39.3122 72.5 54.5C72.5 69.6878 84.8122 82 100 82Z" fill="#D9231D"/>
                     <path d="M82 105.5C82 95.5589 90.0589 87.5 100 87.5C109.941 87.5 118 95.5589 118 105.5" stroke="#D9231D" stroke-width="25" stroke-linecap="round"/>
                 </svg>
-                <div class="flex flex-col justify-center">
-                    <span class="text-2xl font-bold tracking-wider leading-none">ADYAR</span>
-                    <span class="text-[0.65rem] tracking-[0.3em] font-medium leading-none text-gray-300 mt-1">INDUSTRIES</span>
+                <div class="flex min-w-0 flex-1 flex-col justify-center">
+                    <span class="text-[clamp(2rem,10vw,3.5rem)] font-bold tracking-[0.12em] leading-none">ADYAR</span>
+                    <span class="mt-2 text-[clamp(0.65rem,2.5vw,0.9rem)] tracking-[0.3em] font-medium leading-none text-gray-300">INDUSTRIES</span>
                 </div>
             </div>
         </header>
